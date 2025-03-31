@@ -1,3 +1,5 @@
+'use client';
+
 import { Stuff } from '@prisma/client';
 import Link from 'next/link';
 
