@@ -10,7 +10,7 @@ Add a set of timestamped notes regarding their interactions with each contact.
 
 First, [install PostgreSQL](https://www.postgresql.org/download/).
 
-Second, download a copy of Digits. Note that Digits is a private repo and so you will need to request permission from the author to gain access to the repo.
+Second, [download a copy of Digits](https://github.com/rtodd3000/digits). Note that Digits is a private repo and so you will need to request permission from the author to gain access to the repo.
 
 Third, cd into the app directory install the required libraries with:
 
@@ -50,27 +50,7 @@ Seeding the database
 
 ```
 
-Then seed the database with the `/config/settings.development.json` data using `npx prisma db seed`.
-
-```
-
-$ npx prisma db seed
-Environment variables loaded from .env
-Running seed command `ts-node --compiler-options {"module":"CommonJS"} prisma/seed.ts` ...
-Seeding the database
-Creating user: admin@foo.com with role: ADMIN
-Creating user: john@foo.com with role: USER
-Adding stuff: Basket (john@foo.com)
-Adding stuff: Bicycle (john@foo.com)
-Adding stuff: Banana (admin@foo.com)
-Adding stuff: Boogie Board (admin@foo.com)
-
-🌱 The seed command has been executed.
-$
-
-```
-
-If all goes well, the template application will appear at http://localhost:3000. You can login using the credentials in settings.development.json, or else register a new account.
+If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in [settings.development.json](https://github.com/rtodd3000/digits/blob/main/config/settings.development.json), or else register a new account.
 
 Lastly, you can run ESLint over the code in the imports/ directory with:
 
