@@ -1,4 +1,4 @@
 title: Digits
-theme: jekyll-theme-leapday
+theme: jekyll-theme-architect
 gems:
   - jekyll-mentions
